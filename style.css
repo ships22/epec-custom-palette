@@ -1,3 +1,24 @@
-p {
-  color: black;
+.has-brand-color-1-background-color {
+  background: #6128a1;
+}
+.has-strong-magenta-background-color {
+  background: #e94b59;
+}
+.has-brand-color-2-background-color {
+  background: white;
+}
+.has-very-dark-gray-background-color {
+  background: black !important;
+}
+.has-brand-color-1-color {
+  color: #6128a1;
+}
+.has-strong-magenta-color {
+  color: #e94b59;
+}
+.has-brand-color-2-color {
+  color: white;
+}
+.has-very-dark-gray-color {
+  color: black !important;
 }
