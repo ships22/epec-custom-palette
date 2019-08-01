@@ -12,12 +12,12 @@ function mytheme_setup_theme_supported_features() {
     add_theme_support( 'editor-color-palette', array(
         array(
             'name' => __( 'Brand color - 1', 'epec-custom-palette' ),
-            'slug' => 'Brand color - 1',
+            'slug' => 'brand-color-1',
             'color' => '#6128A1',
         ),
         array(
             'name' => __( 'Brand color - 2', 'epec-custom-palette' ),
-            'slug' => 'Brand color - 2',
+            'slug' => 'brand-color-2',
             'color' => '#E94B59',
         ),
         array(
@@ -35,7 +35,6 @@ function mytheme_setup_theme_supported_features() {
     
     add_action( 'after_setup_theme', 'mytheme_setup_theme_supported_features' );
         function my_scripts() {
-            wp_enqueue_script( 'jquery' );
             wp_register_style( 'prefix-style', plugins_url('style.css', __FILE__) );
             wp_enqueue_style( 'prefix-style' );
             }
